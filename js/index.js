@@ -273,7 +273,7 @@ var cartNumber = document.getElementById(`cart-number`);
 for (var i = 0; i < products.length; i++) {
 
   var productElement = `<div class="lg:w-1/4 md:w-1/2 rounded p-4 w-full backdrop-opacity-100 card">
-    <a class="block relative h-48 rounded overflow-hidden">
+    <a class="block relative h-48 rounded overflow-hidden effect">
       <img alt="e-commerce" class="object-cover object-center w-full h-full block" src="${products[i].image}">
     </a>
     <div class="mt-4">
